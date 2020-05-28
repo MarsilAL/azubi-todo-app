@@ -12,10 +12,12 @@ function Todo({ todo, index, completeTodo, delTodo }) {
         {todo.text}
   
         <div className="itme">
-            <input className="chkbox" name="checked" type="checkbox" onChange={() => completeTodo(index)} />
+            <input className="chkbox" name="checked" type="checkbox" value="false" onChange={() => completeTodo(index)} />
           <button  className="delBTN" onClick={() => delTodo(index)}>x</button>
         </div>
       </div>
     );
   }
   export default Todo;
+
+  // todo.isCompleted ? "true" : "false"

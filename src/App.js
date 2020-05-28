@@ -9,19 +9,19 @@ import "./App.css";
 function App() {
 
   const [todos, setTodos] = useState([
-		{
-		  text: "item 1",
-		  isCompleted: true
-		},
-		{
-		  text: "item 2",
-		  isCompleted: false
-		},
-		{
-		  text: "item 3",
-		  isCompleted: false
-		}
-	  ]);
+    {
+      text: "item 1",
+      isCompleted: false
+    },
+    {
+      text: "item 2",
+      isCompleted: false
+    },
+    {
+      text: "item 3",
+      isCompleted: false
+    }
+  ]);
   const addTodo = text => {
     const newTodos = [...todos, { text }];
     setTodos(newTodos);
@@ -29,8 +29,26 @@ function App() {
 
   const completeTodo = index => {
     const newTodos = [...todos];
-    newTodos[index].isCompleted = true;
-	setTodos(newTodos);
+
+    const chkd = newTodos[index].isCompleted;
+    // eslint-disable-next-line default-case
+    switch (chkd) {
+      case false:
+           newTodos[index].isCompleted = true;
+          break;
+  
+      case true:
+        newTodos[index].isCompleted = false;
+          break;
+
+      case undefined:
+          newTodos[index].isCompleted = true;
+              break;
+
+          default:
+
+  };
+    setTodos(newTodos);
   };
 
   const delTodo = index => {
