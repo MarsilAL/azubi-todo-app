@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/azubi-todo-app/precache-manifest.5cfaa600147aed0c4c3c489e39b59e08.js"
+  "/azubi-todo-app/precache-manifest.eea7db103bad28156a052ac8bbe203f3.js"
 );
 
 self.addEventListener('message', (event) => {

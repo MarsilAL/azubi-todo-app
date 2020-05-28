@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "162b8f41659e890618210950a0a76a17",
+    "revision": "1471581749cfc0f441d6baa575f21020",
     "url": "/azubi-todo-app/index.html"
   },
   {
-    "revision": "09eb6ece3a4e4e547697",
+    "revision": "63fe33de4ec8b40af7fd",
     "url": "/azubi-todo-app/static/css/main.a97c9717.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/azubi-todo-app/static/js/2.a4badb7b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "09eb6ece3a4e4e547697",
-    "url": "/azubi-todo-app/static/js/main.7c139d17.chunk.js"
+    "revision": "63fe33de4ec8b40af7fd",
+    "url": "/azubi-todo-app/static/js/main.779b405b.chunk.js"
   },
   {
     "revision": "a418e38c14a01ddfe125",
